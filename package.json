@@ -1,0 +1,11 @@
+{
+  "name": "skeleton-4r",
+  "version": "1.0.0",
+  "description": "Universal app skeleton for React+Router+Redux+Radium (4r)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mars@heroku.com",
+  "license": "MIT"
+}
