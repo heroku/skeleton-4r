@@ -7,5 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mars@heroku.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "create-render-4r": "^3.0.0",
+    "radium": "^0.15.3",
+    "react": "^0.14.7",
+    "react-document-meta": "^2.0.2",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^1.0.3",
+    "redux": "^3.3.1"
+  }
 }
