@@ -1,0 +1,21 @@
+{
+  "name": "Skeleton Universal Web App",
+  "description": "Production-ready server rendering for a React+Router+Redux+Radium app",
+  "keywords": [
+    "universal",
+    "javascript",
+    "react"
+  ],
+  "website": "https://github.com/heroku/skeleton-4r",
+  "repository": "https://github.com/heroku/skeleton-4r.git",
+  "logo": "http://universal-web-apps.s3.amazonaws.com/universal-front-end-icon.svg",
+  "success_url": "/",
+  "env": {
+    "NODE_ENV": {
+      "description": "The runtime environment name. Only change this if you code specific functionality for another value.",
+      "value": "production"
+    }
+  },
+  "addons": [
+  ]
+}

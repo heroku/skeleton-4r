@@ -2,6 +2,8 @@ Universal web app skeleton
 ==========================
 Production-ready server rendering via [create-render-4r](https://github.com/heroku/create-render-4r) for a React+Router+Redux+Radium app. Includes development server with hot module reloading.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/skeleton-4r)
+
 Installation
 ------------
 

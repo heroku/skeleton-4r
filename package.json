@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Universal app skeleton for React+Router+Redux+Radium (4r)",
   "main": "index.js",
+  "engines": [
+    "node": "5.5.x"
+  ],
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:./app node ./app/server",
     "dev": "NODE_PATH=$NODE_PATH:./app node ./app/dev-server",
