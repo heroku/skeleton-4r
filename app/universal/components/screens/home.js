@@ -16,7 +16,7 @@ class Home extends React.Component {
     return (
       <div id="home-view">
         <DocumentMeta {...metaData}/>
-        <h1>{'Howdy y’all'}</h1>
+        <h1>{'Howdy y’all!'}</h1>
       </div>
     );
   }
