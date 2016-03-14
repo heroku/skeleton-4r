@@ -1,1 +1,1 @@
-export { default as howdyYall }  from './howdy-yall';
+export { default as configVars }  from './config-vars';
