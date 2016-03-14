@@ -11,11 +11,11 @@ export default function configVars(state = defaultState, action) {
     return state.merge({
 
       // A few common examples…
-      baseUrl: process.env.BASE_URL,
-      apiUrl: process.env.API_URL,
+      BASE_URL: process.env.BASE_URL,
+      API_URL: process.env.API_URL,
 
       // Add more as needed to pass values from the server…
-      // apiKey: process.env.apiKey,
+      // API_KEY: process.env.apiKey,
 
     });
   } else {

@@ -19,6 +19,12 @@ Usage
   * `npm run build`
   * `NODE_ENV=production npm start`
 
+### Environment variables
+
+Redux `state.configVars` may be loaded with the values of [environment variables](https://en.wikipedia.org/wiki/Environment_variable), like API URL, public key, or token.
+
+See: [`configVars` Redux reducer](app/universal/reducers/config-vars.jsx) & [Heroku config vars](https://devcenter.heroku.com/articles/config-vars)
+
 File structure
 --------------
 
