@@ -1,4 +1,9 @@
-export default function layoutHtml(componentHTML, initialState, documentMeta) {
+export default function layoutHtml(
+  API_URL,
+  BASE_URL,
+  componentHTML,
+  initialState,
+  documentMeta) {
 
   const HTML = `
     <!DOCTYPE html>
@@ -24,6 +29,12 @@ export default function layoutHtml(componentHTML, initialState, documentMeta) {
       <body>
         <div id="openseadragon-view"></div>
         <div id="react-view">${componentHTML}</div>
+
+        <!--
+        Examples using environment variables:
+          BASE_URL is ${BASE_URL}
+          API_URL is ${API_URL}
+        -->
 
         <script type="application/javascript" src="/bundle.js"></script>
       </body>

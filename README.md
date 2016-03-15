@@ -14,10 +14,28 @@ Usage
 -----
 
 * Development
+  * `cp .env.sample .env` and then add/set new variables in that file for your specific app
   * `npm run dev`
 * Production
   * `npm run build`
   * `NODE_ENV=production npm start`
+
+### Environment variables
+
+Redux `state.configVars` may be loaded with the values of [environment variables](https://en.wikipedia.org/wiki/Environment_variable), like API URL, public key, or token.
+
+These vars may also be used in the HTML layout template. Example: [`layoutHtml` function](app/server/layout-html.jsx) & its [binding to environment values](app/server/use-middleware.jsx).
+
+Define new vars in the [`configVars` Redux reducer](app/universal/reducers/config-vars.jsx).
+
+Examples provided this app skeleton:
+
+  * `BASE_URL`, example `https://example.com`
+  * `API_URL`, example `https://api.example.com`
+
+**For local development** `cp .env.sample .env` and then add/set new variables in that file for your specific app.
+
+**For production** set the process' environment variable; use [Heroku Config Vars](https://devcenter.heroku.com/articles/config-vars).
 
 File structure
 --------------
