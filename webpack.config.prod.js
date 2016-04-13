@@ -5,7 +5,7 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'source-map',
   entry: [
-    'babel/polyfill',
+    'babel-polyfill',
     './app/client'
   ],
   output: {

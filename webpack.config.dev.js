@@ -4,8 +4,8 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
   entry:  [
+    'babel-polyfill',
     'webpack-hot-middleware/client',
-    'babel/polyfill',
     './app/client'
   ],
   output: {

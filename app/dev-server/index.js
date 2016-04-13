@@ -8,6 +8,7 @@ var dotenv = require('dotenv');
 dotenv.load();
 
 require('babel-core/register');
+require("babel-polyfill");
 var server = require('./main').default;
 
 const PORT = process.env.PORT || 3000;
